@@ -1,0 +1,19 @@
+{
+    "name": "First extention DEMO",
+    "description": "Build a first extention",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_title": "Inject!!!"
+    },
+    "permissions": [
+        "https://*/*",
+        "tabs"
+    ]
+}
